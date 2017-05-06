@@ -79,7 +79,7 @@ public class RNPushNotificationHelper {
             return;
         }
 
-        if (bundle.getString("message") == null) {
+        if (bundle.getString("body") == null) {
             Log.e(LOG_TAG, "No message specified for the scheduled notification");
             return;
         }
